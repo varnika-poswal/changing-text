@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(purple,#fff);
+    height:100vh;
+}
+#container{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+   /* border:1px solid #000;*/
+    padding:50px;
+    text-align: center;
+    border-radius: 100px 0 100px 0;
+    box-shadow: -2px -2px 6px #fff;
+    font-size:22px;
+}
